@@ -3,7 +3,6 @@ package com.alisamir.mediaapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebViewClient
-import com.alisamir.mediaapp.databinding.ActivityMainBinding
 import com.alisamir.mediaapp.databinding.ActivityWebBinding
 import java.net.URL
 

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
+import android.webkit.URLUtil
 import com.alisamir.mediaapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +20,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,VideoActivity::class.java))
         }
         binding.subBtn.setOnClickListener {
-            val webUrl = binding.webUrlEdit.text
-            if (!Patterns.WEB_URL.equals(webUrl)){
+            val webUrl = binding.webUrlEdit.text.toString()
+            if (!URLUtil.isValidUrl(webUrl)){
                 binding.webUrlEdit.setError("Enter Valid URL")
                 binding.webUrlEdit.requestFocus()
             }else{

@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/arrow.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/ic_baseline_pause_circle_outline_24.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/ic_baseline_replay_24.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/ic_baseline_stop_24.xml" value="0.23333333333333334" />
         <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/play_song_background.xml" value="0.2111111111111111" />
         <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/play_video_background.xml" value="0.2111111111111111" />
         <entry key="..\:/Android/Projects/MediaApp/app/src/main/res/drawable/url_back.xml" value="0.2111111111111111" />
