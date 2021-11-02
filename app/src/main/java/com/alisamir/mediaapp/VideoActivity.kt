@@ -25,7 +25,7 @@ class VideoActivity : AppCompatActivity() {
         simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this)
         mediaDataSourceFactory = DefaultDataSourceFactory(this, Util.getUserAgent(this,"Video player"))
         if(Util.SDK_INT>23){
-            val videoSrc = ProgressiveMediaSource.Factory(mediaDataSourceFactory).createMediaSource(Uri.parse("https://s11.dl-vid.org/download/jxptIpCYAJA/mp4/22/1635797899/4c488fc8afbdd2c721af811f5ec9d7f7063f493848c600443650b72644d57aad/1"))
+            val videoSrc = ProgressiveMediaSource.Factory(mediaDataSourceFactory).createMediaSource(Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
             simpleExoPlayer.prepare(videoSrc,false,false)
             simpleExoPlayer.playWhenReady = true
             binding.videPlayer.player = simpleExoPlayer
